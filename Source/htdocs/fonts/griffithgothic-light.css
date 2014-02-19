@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GriffithGothicLight';
+    src: url('griffithgothic-light.eot');
+    src: url('griffithgothic-light.eot') format('embedded-opentype'),
+         url('griffithgothic-light.woff') format('woff'),
+         url('griffithgothic-light.ttf') format('truetype'),
+         url('griffithgothic-light.svg#GriffithGothicLight') format('svg');
+}

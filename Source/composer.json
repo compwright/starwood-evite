@@ -1,0 +1,29 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/asimlqt/php-google-spreadsheet-client"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "google/google-api-php-client",
+                "version": "0.6.7",
+                "source": {
+                    "url": "http://google-api-php-client.googlecode.com/svn/",
+                    "type": "svn",
+                    "reference": "tags/0.6.7/"
+                },
+                "autoload": {
+                    "classmap": ["src/"]
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "asimlqt/php-google-spreadsheet-client": "*",
+        "google/google-api-php-client": "*",
+        "swiftmailer/swiftmailer": "*"
+    }
+}
